@@ -1,16 +1,16 @@
-# Protocol Name 
+# Swan: Dria Contracts
 
 
-### Prize Pool TO BE FILLED OUT BY CYFRIN
+### Prize Pool
 
-- Total Pool - 
-- H/M -  
-- Low - 
+- Total Pool - $21,000
+- H/M -  $20,000
+- Low - $1,000
 
-- Starts: 
-- Ends: 
+- Starts: October 25, 2024 4PM UTC
+- Ends: November 01, 2024 4PM UTC
 
-- nSLOC: 
+- nSLOC: 1034
 
 [//]: # (contest-details-open)
 
