@@ -1,0 +1,31 @@
+{
+  "BuyerAgentFactory": {
+    "deployer": "0x2aA47BC684aEC9093AB9E85c2CB19052887c1Aee",
+    "address": "0x637c46B1CF606130Fbe60719D0E976f87ED9676E"
+  },
+  "SwanAssetFactory": {
+    "deployer": "0x2aA47BC684aEC9093AB9E85c2CB19052887c1Aee",
+    "address": "0xDa9F154B40ecb0fef8aD46D5eC07B6926BfC5da2"
+  },
+  "LLMOracleRegistry": {
+    "deployer": "0x2aA47BC684aEC9093AB9E85c2CB19052887c1Aee",
+    "address": "0x9618D028B25b3f81c24f068A20DBeEE6a728483C",
+    "implementations": [
+      "0x3d3055C0949d94477e31DD123D65eEbe2aD762db"
+    ]
+  },
+  "LLMOracleCoordinator": {
+    "deployer": "0x2aA47BC684aEC9093AB9E85c2CB19052887c1Aee",
+    "address": "0x362fDBB20191ba22d53bF3b09646AA387Cd6dF75",
+    "implementations": [
+      "0x41d1DaeABDb474d6bEAe4243165C908c49B47c1e"
+    ]
+  },
+  "Swan": {
+    "deployer": "0x2aA47BC684aEC9093AB9E85c2CB19052887c1Aee",
+    "address": "0x6273Ce6A62F38983f9557F862CF7cB436eB69a12",
+    "implementations": [
+      "0x76f97478604659C6E27E747de73D9b9dc2aD6421"
+    ]
+  }
+}

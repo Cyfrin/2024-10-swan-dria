@@ -1,0 +1,4249 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [
+    {
+      "address": "0x6314bA0eaaE83E25aA2C99fAc4FF3601A5CdcB39",
+      "kind": "uups"
+    },
+    {
+      "address": "0xC5264d77F62d86d9421937c12a65CFdCe3Ec9452",
+      "txHash": "0x3808fb103e6288db9529dd8e9978b9da4e779be51ad272510d5e322b132cf0f5",
+      "kind": "uups"
+    },
+    {
+      "address": "0xf55D928e06e210dcb293d8C53f5B778813B9a783",
+      "txHash": "0xd60f98969c506cb0b828c67187c66b599c18249dcf574cac439da90ec3940313",
+      "kind": "uups"
+    },
+    {
+      "address": "0x992A0dbF090f31b5d0918e315452853aD3321c20",
+      "txHash": "0xfec8868f1d3433b0ee2abbe257ef1feb27846997e6af63e38e7189e53133c3bf",
+      "kind": "uups"
+    },
+    {
+      "address": "0xDC834213476E7c33bbB3aE25235E16F281142deF",
+      "txHash": "0x1d1deb19854da3bcdb5eefe06535fc6adde9ee8da6ede084dfd7fba7d9c406e2",
+      "kind": "uups"
+    },
+    {
+      "address": "0x58124Bc851B362EcEeB1A023F716ed8CaBc233cA",
+      "txHash": "0xd8c79dd9f8889037ec32f670d5124b6ee939fe20656222f6039e0c69d80cf510",
+      "kind": "uups"
+    },
+    {
+      "address": "0x777C35F22B0D102ce1995389fE25e7377cE68302",
+      "txHash": "0xd90f99e3c5a5209e80633222b3fc5933a72cf5303aeffe796fd563c033951aaf",
+      "kind": "uups"
+    },
+    {
+      "address": "0x0594cbA62bA67DDdAe5F8Fa88665202Dd53467A7",
+      "txHash": "0x0a6c5ddf8165a6775199ea745f14cde57f0390cb71ed1e3da48eb6d963953fb7",
+      "kind": "uups"
+    },
+    {
+      "address": "0xFd68b02fE5329Ce52926F9b2EFF86F2De12A2aDA",
+      "txHash": "0xb419245fc3b8c6b0489287495e1e6f9411418860f98b09c40e4d6bdffee5b62e",
+      "kind": "uups"
+    },
+    {
+      "address": "0x97B4EadA67A7979b0685Cfb79D3BCc4d7c9f6Bea",
+      "txHash": "0xa29774376fe93880576725e7ef3ded4a7f3ba0ac5d1f555c4d53a1f0bc36db38",
+      "kind": "uups"
+    },
+    {
+      "address": "0xd85D93B20C16affBFdE5A30E86EddC0536099E65",
+      "txHash": "0x34daa80d79ba0229a166d73206174db48524f5b74d82930a98df3a5cf57f0bc4",
+      "kind": "uups"
+    },
+    {
+      "address": "0x394AeaBf6ad7EDF22F8E6617c6c0E0630aAC3676",
+      "txHash": "0xd4a800d3b7ad49722949a47b0b89cf559a93990f324c8c1df3f4d7f55719f473",
+      "kind": "uups"
+    },
+    {
+      "address": "0x4653e3f1eEBb1f667a2d3df9FB43503b7e5A002c",
+      "txHash": "0x6115cb18db9fa40caee7ef2a8b587a09f7fe76ed3c5e62661c9631bd8a47ce71",
+      "kind": "uups"
+    },
+    {
+      "address": "0x9618D028B25b3f81c24f068A20DBeEE6a728483C",
+      "txHash": "0x07c0bdd0bceaea5e1ab8e650ff589d84f9b67d079c668d803c4e8ec424e29e9a",
+      "kind": "uups"
+    },
+    {
+      "address": "0x78015652B5220fcce9e02693e634a6d4612278d0",
+      "txHash": "0x8d37ef2dbad69bffdfae4314c2caf2e36979ce23c31e6203b7e9eadb1ab1509c",
+      "kind": "uups"
+    },
+    {
+      "address": "0x121a83C00B4a88fa1B03aa52AD39eaae411C44b9",
+      "txHash": "0x85aa2a1b2e3260d7589900cf3225f6c5db1810403711743dcaf0def833ac5845",
+      "kind": "uups"
+    },
+    {
+      "address": "0x362fDBB20191ba22d53bF3b09646AA387Cd6dF75",
+      "txHash": "0x0ae45ebc0e0a076db817baa9e7dadf8704cc982169c839c439df365535ca7a14",
+      "kind": "uups"
+    },
+    {
+      "address": "0xE26F5f2b6D609d4f7365d38CEeC850c34de9122F",
+      "txHash": "0x9eb898a7a78eb070fc33647fd7ef8f719cfdbe6a67b1f44f95697bc1199c21dd",
+      "kind": "uups"
+    },
+    {
+      "address": "0x6273Ce6A62F38983f9557F862CF7cB436eB69a12",
+      "txHash": "0xd3462663c1836d31ef7ef9eecb604d6e40b3f9ad1b09476099a000917f9ef587",
+      "kind": "uups"
+    }
+  ],
+  "impls": {
+    "5d3e18f7afc998700d41a7e10e140f69ff2420652a42cdbfe1f7c94154d244e1": {
+      "address": "0x2CB53230A4ff96C82bbD922D1216af37F3f8cC06",
+      "txHash": "0x28eecba40deab231b14e659ce34c9e32c1d85b0d47b715f0f63850e763609d0b",
+      "layout": {
+        "solcVersion": "0.8.24",
+        "storage": [
+          {
+            "label": "assetsPerRound",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_array(t_struct(AssetForSale)8965_storage)dyn_storage))",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:71"
+          },
+          {
+            "label": "positions",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_address,t_struct(AssetPosition)8973_storage)",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:73"
+          },
+          {
+            "label": "maxAssetCount",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:75"
+          },
+          {
+            "label": "withdrawInterval",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_uint256",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:78"
+          },
+          {
+            "label": "sellInterval",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_uint256",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:80"
+          },
+          {
+            "label": "buyInterval",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_uint256",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:82"
+          },
+          {
+            "label": "difficulty",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_uint8",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:85"
+          },
+          {
+            "label": "numGenerations",
+            "offset": 1,
+            "slot": "6",
+            "type": "t_uint40",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:87"
+          },
+          {
+            "label": "numValidations",
+            "offset": 6,
+            "slot": "6",
+            "type": "t_uint40",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:89"
+          },
+          {
+            "label": "token",
+            "offset": 11,
+            "slot": "6",
+            "type": "t_contract(ERC20)1815",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:92"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(InitializableStorage)80_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)13_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_struct(AssetForSale)8965_storage)dyn_storage": {
+            "label": "struct Swan.AssetForSale[]",
+            "numberOfBytes": "32"
+          },
+          "t_contract(ERC20)1815": {
+            "label": "contract ERC20",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_array(t_struct(AssetForSale)8965_storage)dyn_storage))": {
+            "label": "mapping(address => mapping(uint256 => struct Swan.AssetForSale[]))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(AssetPosition)8973_storage)": {
+            "label": "mapping(address => struct Swan.AssetPosition)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_array(t_struct(AssetForSale)8965_storage)dyn_storage)": {
+            "label": "mapping(uint256 => struct Swan.AssetForSale[])",
+            "numberOfBytes": "32"
+          },
+          "t_struct(AssetForSale)8965_storage": {
+            "label": "struct Swan.AssetForSale",
+            "members": [
+              {
+                "label": "addr",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "createdAt",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "feeRoyalty",
+                "type": "t_uint96",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "seller",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "isActive",
+                "type": "t_bool",
+                "offset": 20,
+                "slot": "4"
+              },
+              {
+                "label": "isSold",
+                "type": "t_bool",
+                "offset": 21,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(AssetPosition)8973_storage": {
+            "label": "struct Swan.AssetPosition",
+            "members": [
+              {
+                "label": "buyer",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "purchaseRound",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "roundIndex",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint40": {
+            "label": "uint40",
+            "numberOfBytes": "5"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          },
+          "t_uint96": {
+            "label": "uint96",
+            "numberOfBytes": "12"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      },
+      "allAddresses": [
+        "0x2CB53230A4ff96C82bbD922D1216af37F3f8cC06"
+      ]
+    },
+    "3fad335462bc42c33424bb470d17c087d653d0b4cb0965297adcb78a35824c5a": {
+      "address": "0x74Db5E7BA0933996922d02d8b7729e1642aBF99e",
+      "txHash": "0x69d5353202dabe3c22dd1fb2b4a83fc46b4d8508cea44e2c38f8f48b797ab96a",
+      "layout": {
+        "solcVersion": "0.8.24",
+        "storage": [
+          {
+            "label": "assetsPerRound",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_array(t_struct(AssetForSale)8965_storage)dyn_storage))",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:71"
+          },
+          {
+            "label": "positions",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_address,t_struct(AssetPosition)8973_storage)",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:73"
+          },
+          {
+            "label": "maxAssetCount",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:75"
+          },
+          {
+            "label": "withdrawInterval",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_uint256",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:78"
+          },
+          {
+            "label": "sellInterval",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_uint256",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:80"
+          },
+          {
+            "label": "buyInterval",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_uint256",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:82"
+          },
+          {
+            "label": "difficulty",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_uint8",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:85"
+          },
+          {
+            "label": "numGenerations",
+            "offset": 1,
+            "slot": "6",
+            "type": "t_uint40",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:87"
+          },
+          {
+            "label": "numValidations",
+            "offset": 6,
+            "slot": "6",
+            "type": "t_uint40",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:89"
+          },
+          {
+            "label": "token",
+            "offset": 11,
+            "slot": "6",
+            "type": "t_contract(ERC20)1815",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:92"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(InitializableStorage)80_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)13_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_struct(AssetForSale)8965_storage)dyn_storage": {
+            "label": "struct Swan.AssetForSale[]",
+            "numberOfBytes": "32"
+          },
+          "t_contract(ERC20)1815": {
+            "label": "contract ERC20",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_array(t_struct(AssetForSale)8965_storage)dyn_storage))": {
+            "label": "mapping(address => mapping(uint256 => struct Swan.AssetForSale[]))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(AssetPosition)8973_storage)": {
+            "label": "mapping(address => struct Swan.AssetPosition)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_array(t_struct(AssetForSale)8965_storage)dyn_storage)": {
+            "label": "mapping(uint256 => struct Swan.AssetForSale[])",
+            "numberOfBytes": "32"
+          },
+          "t_struct(AssetForSale)8965_storage": {
+            "label": "struct Swan.AssetForSale",
+            "members": [
+              {
+                "label": "addr",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "createdAt",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "feeRoyalty",
+                "type": "t_uint96",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "seller",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "isActive",
+                "type": "t_bool",
+                "offset": 20,
+                "slot": "4"
+              },
+              {
+                "label": "isSold",
+                "type": "t_bool",
+                "offset": 21,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(AssetPosition)8973_storage": {
+            "label": "struct Swan.AssetPosition",
+            "members": [
+              {
+                "label": "buyer",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "purchaseRound",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "roundIndex",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint40": {
+            "label": "uint40",
+            "numberOfBytes": "5"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          },
+          "t_uint96": {
+            "label": "uint96",
+            "numberOfBytes": "12"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "a6fe35b16e6932bfdee721b0cc13835f4a71ee2c33220ec8bc2480da767ec81d": {
+      "address": "0x434F288ff599e1f56fe27CF372be2941543b4171",
+      "txHash": "0xa7308dea0369a5645329978b2850034712379b4f70cafe4e71fb36b7b2f096d7",
+      "layout": {
+        "solcVersion": "0.8.24",
+        "storage": [
+          {
+            "label": "relations",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_mapping(t_uint256,t_mapping(t_bytes32,t_address))",
+            "contract": "KnowledgeRegistry",
+            "src": "contracts/core/KnowledgeRegistry.sol:33"
+          },
+          {
+            "label": "owners",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "KnowledgeRegistry",
+            "src": "contracts/core/KnowledgeRegistry.sol:35"
+          },
+          {
+            "label": "knowledges",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_mapping(t_address,t_array(t_uint256)dyn_storage)",
+            "contract": "KnowledgeRegistry",
+            "src": "contracts/core/KnowledgeRegistry.sol:37"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(InitializableStorage)80_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)13_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(address => uint256[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_address)": {
+            "label": "mapping(bytes32 => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_mapping(t_bytes32,t_address))": {
+            "label": "mapping(uint256 => mapping(bytes32 => address))",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "8d023a3c0da9cf220937c5782345774f0dd65f5b53b981aad3932c8ced66babb": {
+      "address": "0x2244F4ADE1eCE6C216C6B119c54725dEe34801B5",
+      "txHash": "0xa98b738a3ae49c891911d232c81eea4d127e3a3b57f1a3a5f8ef4e3f145588a6",
+      "layout": {
+        "solcVersion": "0.8.24",
+        "storage": [
+          {
+            "label": "knowledgeRegistry",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_contract(KnowledgeRegistry)6039",
+            "contract": "DatasetAccessRegistry",
+            "src": "contracts/core/DatasetAccessRegistry.sol:50"
+          },
+          {
+            "label": "accessKeys",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_bytes_storage))",
+            "contract": "DatasetAccessRegistry",
+            "src": "contracts/core/DatasetAccessRegistry.sol:52"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(InitializableStorage)80_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)13_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_bytes_storage": {
+            "label": "bytes",
+            "numberOfBytes": "32"
+          },
+          "t_contract(KnowledgeRegistry)6039": {
+            "label": "contract KnowledgeRegistry",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_bytes_storage))": {
+            "label": "mapping(address => mapping(uint256 => bytes))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_bytes_storage)": {
+            "label": "mapping(uint256 => bytes)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "46e7582f009895a8821f077826fd136180028d4e72fe6a62a08334e15c659a4a": {
+      "address": "0x3d3055C0949d94477e31DD123D65eEbe2aD762db",
+      "txHash": "0xb2bc8bb8a9d967bc61a96bc089b766b9bccb13806af12a4949ba22556a68beed",
+      "layout": {
+        "solcVersion": "0.8.24",
+        "storage": [
+          {
+            "label": "generatorStakeAmount",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "LLMOracleRegistry",
+            "src": "contracts/llm/LLMOracleRegistry.sol:46"
+          },
+          {
+            "label": "validatorStakeAmount",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "LLMOracleRegistry",
+            "src": "contracts/llm/LLMOracleRegistry.sol:49"
+          },
+          {
+            "label": "registrations",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_mapping(t_address,t_mapping(t_enum(LLMOracleKind)7593,t_uint256))",
+            "contract": "LLMOracleRegistry",
+            "src": "contracts/llm/LLMOracleRegistry.sol:52"
+          },
+          {
+            "label": "token",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_contract(ERC20)1815",
+            "contract": "LLMOracleRegistry",
+            "src": "contracts/llm/LLMOracleRegistry.sol:55"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(InitializableStorage)80_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)13_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_contract(ERC20)1815": {
+            "label": "contract ERC20",
+            "numberOfBytes": "20"
+          },
+          "t_enum(LLMOracleKind)7593": {
+            "label": "enum LLMOracleKind",
+            "members": [
+              "Generator",
+              "Validator"
+            ],
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_enum(LLMOracleKind)7593,t_uint256))": {
+            "label": "mapping(address => mapping(enum LLMOracleKind => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_enum(LLMOracleKind)7593,t_uint256)": {
+            "label": "mapping(enum LLMOracleKind => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "45d31053fd17f5408a4ac4ba7b12bb809589a33da359a8a1c9c1721e6ae398ee": {
+      "address": "0x0d32527bB6c0b3837835176E72217D298F253bCE",
+      "txHash": "0xb034c3b271b43c9a98a40bdc7e4ca07cb3f2fd8f444ec16306262ef054d91c1f",
+      "layout": {
+        "solcVersion": "0.8.24",
+        "storage": [
+          {
+            "label": "platformFee",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:28"
+          },
+          {
+            "label": "generationFee",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:31"
+          },
+          {
+            "label": "validationFee",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:34"
+          },
+          {
+            "label": "maxDifficulty",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_uint64",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:37"
+          },
+          {
+            "label": "minDifficulty",
+            "offset": 8,
+            "slot": "3",
+            "type": "t_uint64",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:39"
+          },
+          {
+            "label": "validationDeviationFactor",
+            "offset": 16,
+            "slot": "3",
+            "type": "t_uint64",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:42"
+          },
+          {
+            "label": "generationDeviationFactor",
+            "offset": 24,
+            "slot": "3",
+            "type": "t_uint64",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:44"
+          },
+          {
+            "label": "maxNumGenerations",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_uint40",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:47"
+          },
+          {
+            "label": "minNumGenerations",
+            "offset": 5,
+            "slot": "4",
+            "type": "t_uint40",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:49"
+          },
+          {
+            "label": "maxNumValidations",
+            "offset": 10,
+            "slot": "4",
+            "type": "t_uint40",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:52"
+          },
+          {
+            "label": "minNumValidations",
+            "offset": 15,
+            "slot": "4",
+            "type": "t_uint40",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:54"
+          },
+          {
+            "label": "registry",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_contract(LLMOracleRegistry)7883",
+            "contract": "LLMOracleCoordinator",
+            "src": "contracts/llm/LLMOracleCoordinator.sol:57"
+          },
+          {
+            "label": "feeToken",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_contract(ERC20)1815",
+            "contract": "LLMOracleCoordinator",
+            "src": "contracts/llm/LLMOracleCoordinator.sol:59"
+          },
+          {
+            "label": "nextTaskId",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_uint256",
+            "contract": "LLMOracleCoordinator",
+            "src": "contracts/llm/LLMOracleCoordinator.sol:64"
+          },
+          {
+            "label": "requests",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_mapping(t_uint256,t_struct(TaskRequest)7925_storage)",
+            "contract": "LLMOracleCoordinator",
+            "src": "contracts/llm/LLMOracleCoordinator.sol:66"
+          },
+          {
+            "label": "responses",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_mapping(t_uint256,t_array(t_struct(TaskResponse)7942_storage)dyn_storage)",
+            "contract": "LLMOracleCoordinator",
+            "src": "contracts/llm/LLMOracleCoordinator.sol:68"
+          },
+          {
+            "label": "validations",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_mapping(t_uint256,t_array(t_struct(TaskValidation)7957_storage)dyn_storage)",
+            "contract": "LLMOracleCoordinator",
+            "src": "contracts/llm/LLMOracleCoordinator.sol:70"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(InitializableStorage)80_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)13_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_struct(TaskResponse)7942_storage)dyn_storage": {
+            "label": "struct LLMOracleTask.TaskResponse[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(TaskValidation)7957_storage)dyn_storage": {
+            "label": "struct LLMOracleTask.TaskValidation[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_bytes_storage": {
+            "label": "bytes",
+            "numberOfBytes": "32"
+          },
+          "t_contract(ERC20)1815": {
+            "label": "contract ERC20",
+            "numberOfBytes": "20"
+          },
+          "t_contract(LLMOracleRegistry)7883": {
+            "label": "contract LLMOracleRegistry",
+            "numberOfBytes": "20"
+          },
+          "t_enum(TaskStatus)7892": {
+            "label": "enum LLMOracleTask.TaskStatus",
+            "members": [
+              "None",
+              "PendingGeneration",
+              "PendingValidation",
+              "Completed"
+            ],
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_uint256,t_array(t_struct(TaskResponse)7942_storage)dyn_storage)": {
+            "label": "mapping(uint256 => struct LLMOracleTask.TaskResponse[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_array(t_struct(TaskValidation)7957_storage)dyn_storage)": {
+            "label": "mapping(uint256 => struct LLMOracleTask.TaskValidation[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(TaskRequest)7925_storage)": {
+            "label": "mapping(uint256 => struct LLMOracleTask.TaskRequest)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(TaskRequest)7925_storage": {
+            "label": "struct LLMOracleTask.TaskRequest",
+            "members": [
+              {
+                "label": "requester",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "numGenerations",
+                "type": "t_uint40",
+                "offset": 20,
+                "slot": "0"
+              },
+              {
+                "label": "numValidations",
+                "type": "t_uint40",
+                "offset": 25,
+                "slot": "0"
+              },
+              {
+                "label": "difficulty",
+                "type": "t_uint8",
+                "offset": 30,
+                "slot": "0"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(TaskStatus)7892",
+                "offset": 31,
+                "slot": "0"
+              },
+              {
+                "label": "generatorFee",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "validatorFee",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "platformFee",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "input",
+                "type": "t_bytes_storage",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "models",
+                "type": "t_bytes_storage",
+                "offset": 0,
+                "slot": "5"
+              }
+            ],
+            "numberOfBytes": "192"
+          },
+          "t_struct(TaskResponse)7942_storage": {
+            "label": "struct LLMOracleTask.TaskResponse",
+            "members": [
+              {
+                "label": "responder",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "nonce",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "score",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "output",
+                "type": "t_bytes_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "metadata",
+                "type": "t_bytes_storage",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(TaskValidation)7957_storage": {
+            "label": "struct LLMOracleTask.TaskValidation",
+            "members": [
+              {
+                "label": "validator",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "nonce",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "scores",
+                "type": "t_array(t_uint256)dyn_storage",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "metadata",
+                "type": "t_bytes_storage",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint40": {
+            "label": "uint40",
+            "numberOfBytes": "5"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "8fd024d22ed78d8f9fa0fb761c2f001a6f8eba2e21d80289ff5303fd5969d342": {
+      "address": "0xF19C4caFa2F40Eaa5cDbe1742a72570B144d498b",
+      "txHash": "0x8d343342e4a90e8dad9e97e34b7c18be03529d3bbebdb7386fdd6e8a8a64d111",
+      "layout": {
+        "solcVersion": "0.8.24",
+        "storage": [
+          {
+            "label": "platformFee",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:28"
+          },
+          {
+            "label": "generationFee",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:31"
+          },
+          {
+            "label": "validationFee",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:34"
+          },
+          {
+            "label": "maxDifficulty",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_uint64",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:37"
+          },
+          {
+            "label": "minDifficulty",
+            "offset": 8,
+            "slot": "3",
+            "type": "t_uint64",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:39"
+          },
+          {
+            "label": "validationDeviationFactor",
+            "offset": 16,
+            "slot": "3",
+            "type": "t_uint64",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:42"
+          },
+          {
+            "label": "generationDeviationFactor",
+            "offset": 24,
+            "slot": "3",
+            "type": "t_uint64",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:44"
+          },
+          {
+            "label": "maxNumGenerations",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_uint40",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:47"
+          },
+          {
+            "label": "minNumGenerations",
+            "offset": 5,
+            "slot": "4",
+            "type": "t_uint40",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:49"
+          },
+          {
+            "label": "maxNumValidations",
+            "offset": 10,
+            "slot": "4",
+            "type": "t_uint40",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:52"
+          },
+          {
+            "label": "minNumValidations",
+            "offset": 15,
+            "slot": "4",
+            "type": "t_uint40",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:54"
+          },
+          {
+            "label": "registry",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_contract(LLMOracleRegistry)6838",
+            "contract": "LLMOracleCoordinator",
+            "src": "contracts/llm/LLMOracleCoordinator.sol:57"
+          },
+          {
+            "label": "feeToken",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_contract(ERC20)1783",
+            "contract": "LLMOracleCoordinator",
+            "src": "contracts/llm/LLMOracleCoordinator.sol:59"
+          },
+          {
+            "label": "nextTaskId",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_uint256",
+            "contract": "LLMOracleCoordinator",
+            "src": "contracts/llm/LLMOracleCoordinator.sol:64"
+          },
+          {
+            "label": "requests",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_mapping(t_uint256,t_struct(TaskRequest)6880_storage)",
+            "contract": "LLMOracleCoordinator",
+            "src": "contracts/llm/LLMOracleCoordinator.sol:66"
+          },
+          {
+            "label": "responses",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_mapping(t_uint256,t_array(t_struct(TaskResponse)6897_storage)dyn_storage)",
+            "contract": "LLMOracleCoordinator",
+            "src": "contracts/llm/LLMOracleCoordinator.sol:68"
+          },
+          {
+            "label": "validations",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_mapping(t_uint256,t_array(t_struct(TaskValidation)6912_storage)dyn_storage)",
+            "contract": "LLMOracleCoordinator",
+            "src": "contracts/llm/LLMOracleCoordinator.sol:70"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(InitializableStorage)80_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)13_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_struct(TaskResponse)6897_storage)dyn_storage": {
+            "label": "struct LLMOracleTask.TaskResponse[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(TaskValidation)6912_storage)dyn_storage": {
+            "label": "struct LLMOracleTask.TaskValidation[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_bytes_storage": {
+            "label": "bytes",
+            "numberOfBytes": "32"
+          },
+          "t_contract(ERC20)1783": {
+            "label": "contract ERC20",
+            "numberOfBytes": "20"
+          },
+          "t_contract(LLMOracleRegistry)6838": {
+            "label": "contract LLMOracleRegistry",
+            "numberOfBytes": "20"
+          },
+          "t_enum(TaskStatus)6847": {
+            "label": "enum LLMOracleTask.TaskStatus",
+            "members": [
+              "None",
+              "PendingGeneration",
+              "PendingValidation",
+              "Completed"
+            ],
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_uint256,t_array(t_struct(TaskResponse)6897_storage)dyn_storage)": {
+            "label": "mapping(uint256 => struct LLMOracleTask.TaskResponse[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_array(t_struct(TaskValidation)6912_storage)dyn_storage)": {
+            "label": "mapping(uint256 => struct LLMOracleTask.TaskValidation[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(TaskRequest)6880_storage)": {
+            "label": "mapping(uint256 => struct LLMOracleTask.TaskRequest)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(TaskRequest)6880_storage": {
+            "label": "struct LLMOracleTask.TaskRequest",
+            "members": [
+              {
+                "label": "requester",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "numGenerations",
+                "type": "t_uint40",
+                "offset": 20,
+                "slot": "0"
+              },
+              {
+                "label": "numValidations",
+                "type": "t_uint40",
+                "offset": 25,
+                "slot": "0"
+              },
+              {
+                "label": "difficulty",
+                "type": "t_uint8",
+                "offset": 30,
+                "slot": "0"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(TaskStatus)6847",
+                "offset": 31,
+                "slot": "0"
+              },
+              {
+                "label": "generatorFee",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "validatorFee",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "platformFee",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "input",
+                "type": "t_bytes_storage",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "models",
+                "type": "t_bytes_storage",
+                "offset": 0,
+                "slot": "5"
+              }
+            ],
+            "numberOfBytes": "192"
+          },
+          "t_struct(TaskResponse)6897_storage": {
+            "label": "struct LLMOracleTask.TaskResponse",
+            "members": [
+              {
+                "label": "responder",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "nonce",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "score",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "output",
+                "type": "t_bytes_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "metadata",
+                "type": "t_bytes_storage",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(TaskValidation)6912_storage": {
+            "label": "struct LLMOracleTask.TaskValidation",
+            "members": [
+              {
+                "label": "validator",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "nonce",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "scores",
+                "type": "t_array(t_uint256)dyn_storage",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "metadata",
+                "type": "t_bytes_storage",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint40": {
+            "label": "uint40",
+            "numberOfBytes": "5"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "f9d3221641d525d4910d9fa86835005cec6c33fe192ea50e2dbb25168e6b10bf": {
+      "address": "0xC9F749422Ec324Cc907B85BA167DfBe2000A30e0",
+      "txHash": "0xb6b11f4a3fbc1a11671b7fd808a75eba8d07805700fc8126541310c7ce1f188c",
+      "layout": {
+        "solcVersion": "0.8.24",
+        "storage": [
+          {
+            "label": "marketParameters",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_struct(MarketParameters)8315_storage",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:46"
+          },
+          {
+            "label": "oracleParameters",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_struct(OracleParameters)8326_storage",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:48"
+          },
+          {
+            "label": "buyerAgentFactory",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_contract(BuyerAgentFactory)6967",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:51"
+          },
+          {
+            "label": "swanAssetFactory",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_contract(SwanAssetFactory)8222",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:53"
+          },
+          {
+            "label": "coordinator",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_contract(LLMOracleCoordinator)6201",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:55"
+          },
+          {
+            "label": "token",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_contract(ERC20)1783",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:57"
+          },
+          {
+            "label": "listings",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_mapping(t_address,t_struct(AssetListing)7657_storage)",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:86"
+          },
+          {
+            "label": "assetsPerBuyerRound",
+            "offset": 0,
+            "slot": "11",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_array(t_address)dyn_storage))",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:88"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(InitializableStorage)80_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)13_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_contract(BuyerAgentFactory)6967": {
+            "label": "contract BuyerAgentFactory",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ERC20)1783": {
+            "label": "contract ERC20",
+            "numberOfBytes": "20"
+          },
+          "t_contract(LLMOracleCoordinator)6201": {
+            "label": "contract LLMOracleCoordinator",
+            "numberOfBytes": "20"
+          },
+          "t_contract(SwanAssetFactory)8222": {
+            "label": "contract SwanAssetFactory",
+            "numberOfBytes": "20"
+          },
+          "t_enum(AssetStatus)7640": {
+            "label": "enum Swan.AssetStatus",
+            "members": [
+              "Unlisted",
+              "Listed",
+              "Sold"
+            ],
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_array(t_address)dyn_storage))": {
+            "label": "mapping(address => mapping(uint256 => address[]))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(AssetListing)7657_storage)": {
+            "label": "mapping(address => struct Swan.AssetListing)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_array(t_address)dyn_storage)": {
+            "label": "mapping(uint256 => address[])",
+            "numberOfBytes": "32"
+          },
+          "t_struct(AssetListing)7657_storage": {
+            "label": "struct Swan.AssetListing",
+            "members": [
+              {
+                "label": "createdAt",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "royaltyFee",
+                "type": "t_uint96",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "seller",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "buyer",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "round",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(AssetStatus)7640",
+                "offset": 0,
+                "slot": "6"
+              }
+            ],
+            "numberOfBytes": "224"
+          },
+          "t_struct(MarketParameters)8315_storage": {
+            "label": "struct SwanManager.MarketParameters",
+            "members": [
+              {
+                "label": "withdrawInterval",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "sellInterval",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "buyInterval",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "platformFee",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "maxAssetCount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(OracleParameters)8326_storage": {
+            "label": "struct SwanManager.OracleParameters",
+            "members": [
+              {
+                "label": "difficulty",
+                "type": "t_uint8",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "numGenerations",
+                "type": "t_uint40",
+                "offset": 1,
+                "slot": "0"
+              },
+              {
+                "label": "numValidations",
+                "type": "t_uint40",
+                "offset": 6,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint40": {
+            "label": "uint40",
+            "numberOfBytes": "5"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          },
+          "t_uint96": {
+            "label": "uint96",
+            "numberOfBytes": "12"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "edb6fea429bca5a96b9cd2fc54398cddb52ae884c812807ae02f725c2c845952": {
+      "address": "0x8DEAfF95f9B79d36F66C2b04fE9bF928410F7FF1",
+      "txHash": "0x59f830b0543f88fb3805e62f6bd46a63722c5fb9476c5e872a42e323d089d5ba",
+      "layout": {
+        "solcVersion": "0.8.24",
+        "storage": [
+          {
+            "label": "platformFee",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:24"
+          },
+          {
+            "label": "generationFee",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:27"
+          },
+          {
+            "label": "validationFee",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:30"
+          },
+          {
+            "label": "validationDeviationFactor",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_uint64",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:33"
+          },
+          {
+            "label": "generationDeviationFactor",
+            "offset": 8,
+            "slot": "3",
+            "type": "t_uint64",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:35"
+          },
+          {
+            "label": "minimumParameters",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_struct(LLMOracleTaskParameters)6809_storage",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:38"
+          },
+          {
+            "label": "maximumParameters",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_struct(LLMOracleTaskParameters)6809_storage",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:40"
+          },
+          {
+            "label": "registry",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_contract(LLMOracleRegistry)6796",
+            "contract": "LLMOracleCoordinator",
+            "src": "contracts/llm/LLMOracleCoordinator.sol:61"
+          },
+          {
+            "label": "feeToken",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_contract(ERC20)1783",
+            "contract": "LLMOracleCoordinator",
+            "src": "contracts/llm/LLMOracleCoordinator.sol:63"
+          },
+          {
+            "label": "nextTaskId",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_uint256",
+            "contract": "LLMOracleCoordinator",
+            "src": "contracts/llm/LLMOracleCoordinator.sol:68"
+          },
+          {
+            "label": "requests",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_mapping(t_uint256,t_struct(TaskRequest)6847_storage)",
+            "contract": "LLMOracleCoordinator",
+            "src": "contracts/llm/LLMOracleCoordinator.sol:70"
+          },
+          {
+            "label": "responses",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_mapping(t_uint256,t_array(t_struct(TaskResponse)6864_storage)dyn_storage)",
+            "contract": "LLMOracleCoordinator",
+            "src": "contracts/llm/LLMOracleCoordinator.sol:72"
+          },
+          {
+            "label": "validations",
+            "offset": 0,
+            "slot": "11",
+            "type": "t_mapping(t_uint256,t_array(t_struct(TaskValidation)6879_storage)dyn_storage)",
+            "contract": "LLMOracleCoordinator",
+            "src": "contracts/llm/LLMOracleCoordinator.sol:74"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(InitializableStorage)80_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)13_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_struct(TaskResponse)6864_storage)dyn_storage": {
+            "label": "struct LLMOracleTask.TaskResponse[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(TaskValidation)6879_storage)dyn_storage": {
+            "label": "struct LLMOracleTask.TaskValidation[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_bytes_storage": {
+            "label": "bytes",
+            "numberOfBytes": "32"
+          },
+          "t_contract(ERC20)1783": {
+            "label": "contract ERC20",
+            "numberOfBytes": "20"
+          },
+          "t_contract(LLMOracleRegistry)6796": {
+            "label": "contract LLMOracleRegistry",
+            "numberOfBytes": "20"
+          },
+          "t_enum(TaskStatus)6816": {
+            "label": "enum LLMOracleTask.TaskStatus",
+            "members": [
+              "None",
+              "PendingGeneration",
+              "PendingValidation",
+              "Completed"
+            ],
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_uint256,t_array(t_struct(TaskResponse)6864_storage)dyn_storage)": {
+            "label": "mapping(uint256 => struct LLMOracleTask.TaskResponse[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_array(t_struct(TaskValidation)6879_storage)dyn_storage)": {
+            "label": "mapping(uint256 => struct LLMOracleTask.TaskValidation[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(TaskRequest)6847_storage)": {
+            "label": "mapping(uint256 => struct LLMOracleTask.TaskRequest)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(LLMOracleTaskParameters)6809_storage": {
+            "label": "struct LLMOracleTaskParameters",
+            "members": [
+              {
+                "label": "difficulty",
+                "type": "t_uint8",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "numGenerations",
+                "type": "t_uint40",
+                "offset": 1,
+                "slot": "0"
+              },
+              {
+                "label": "numValidations",
+                "type": "t_uint40",
+                "offset": 6,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(TaskRequest)6847_storage": {
+            "label": "struct LLMOracleTask.TaskRequest",
+            "members": [
+              {
+                "label": "requester",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "protocol",
+                "type": "t_bytes32",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "parameters",
+                "type": "t_struct(LLMOracleTaskParameters)6809_storage",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(TaskStatus)6816",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "generatorFee",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "validatorFee",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "platformFee",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              },
+              {
+                "label": "input",
+                "type": "t_bytes_storage",
+                "offset": 0,
+                "slot": "7"
+              },
+              {
+                "label": "models",
+                "type": "t_bytes_storage",
+                "offset": 0,
+                "slot": "8"
+              }
+            ],
+            "numberOfBytes": "288"
+          },
+          "t_struct(TaskResponse)6864_storage": {
+            "label": "struct LLMOracleTask.TaskResponse",
+            "members": [
+              {
+                "label": "responder",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "nonce",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "score",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "output",
+                "type": "t_bytes_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "metadata",
+                "type": "t_bytes_storage",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(TaskValidation)6879_storage": {
+            "label": "struct LLMOracleTask.TaskValidation",
+            "members": [
+              {
+                "label": "validator",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "nonce",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "scores",
+                "type": "t_array(t_uint256)dyn_storage",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "metadata",
+                "type": "t_bytes_storage",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint40": {
+            "label": "uint40",
+            "numberOfBytes": "5"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "545416d2cbd7785372ac1a7221afe224d0885c046badfdfb81ab48d0604f007d": {
+      "address": "0xD15eAf1fb02EBc19883Cd24e26c6c2eC301E81DF",
+      "txHash": "0x7839b5e0ca14ca375706f95cf4eafbd52381f2f577bf7184842266f55e3436f4",
+      "layout": {
+        "solcVersion": "0.8.24",
+        "storage": [
+          {
+            "label": "marketParameters",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_struct(SwanMarketParameters)8406_storage",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:35"
+          },
+          {
+            "label": "oracleParameters",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_struct(LLMOracleTaskParameters)6809_storage",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:37"
+          },
+          {
+            "label": "buyerAgentFactory",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_contract(BuyerAgentFactory)6938",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:40"
+          },
+          {
+            "label": "swanAssetFactory",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_contract(SwanAssetFactory)8313",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:42"
+          },
+          {
+            "label": "coordinator",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_contract(LLMOracleCoordinator)6216",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:44"
+          },
+          {
+            "label": "token",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_contract(ERC20)1783",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:46"
+          },
+          {
+            "label": "listings",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_mapping(t_address,t_struct(AssetListing)7646_storage)",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:90"
+          },
+          {
+            "label": "assetsPerBuyerRound",
+            "offset": 0,
+            "slot": "11",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_array(t_address)dyn_storage))",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:92"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(InitializableStorage)80_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)13_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_contract(BuyerAgentFactory)6938": {
+            "label": "contract BuyerAgentFactory",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ERC20)1783": {
+            "label": "contract ERC20",
+            "numberOfBytes": "20"
+          },
+          "t_contract(LLMOracleCoordinator)6216": {
+            "label": "contract LLMOracleCoordinator",
+            "numberOfBytes": "20"
+          },
+          "t_contract(SwanAssetFactory)8313": {
+            "label": "contract SwanAssetFactory",
+            "numberOfBytes": "20"
+          },
+          "t_enum(AssetStatus)7629": {
+            "label": "enum Swan.AssetStatus",
+            "members": [
+              "Unlisted",
+              "Listed",
+              "Sold"
+            ],
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_array(t_address)dyn_storage))": {
+            "label": "mapping(address => mapping(uint256 => address[]))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(AssetListing)7646_storage)": {
+            "label": "mapping(address => struct Swan.AssetListing)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_array(t_address)dyn_storage)": {
+            "label": "mapping(uint256 => address[])",
+            "numberOfBytes": "32"
+          },
+          "t_struct(AssetListing)7646_storage": {
+            "label": "struct Swan.AssetListing",
+            "members": [
+              {
+                "label": "createdAt",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "royaltyFee",
+                "type": "t_uint96",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "seller",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "buyer",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "round",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(AssetStatus)7629",
+                "offset": 0,
+                "slot": "6"
+              }
+            ],
+            "numberOfBytes": "224"
+          },
+          "t_struct(LLMOracleTaskParameters)6809_storage": {
+            "label": "struct LLMOracleTaskParameters",
+            "members": [
+              {
+                "label": "difficulty",
+                "type": "t_uint8",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "numGenerations",
+                "type": "t_uint40",
+                "offset": 1,
+                "slot": "0"
+              },
+              {
+                "label": "numValidations",
+                "type": "t_uint40",
+                "offset": 6,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(SwanMarketParameters)8406_storage": {
+            "label": "struct SwanMarketParameters",
+            "members": [
+              {
+                "label": "withdrawInterval",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "sellInterval",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "buyInterval",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "platformFee",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "maxAssetCount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint40": {
+            "label": "uint40",
+            "numberOfBytes": "5"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          },
+          "t_uint96": {
+            "label": "uint96",
+            "numberOfBytes": "12"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "cbf90487b16c8986b33d4a2747ba539d8a6544cb0be851425e0c3dd316a31e26": {
+      "address": "0x73F1d4cD0B0234a7F9FA11cBf7dCc798f92C31Bb",
+      "txHash": "0x15fa017aed59d1023ff45f3f1d513acc380182bcbfba56684b245ba14347837b",
+      "layout": {
+        "solcVersion": "0.8.24",
+        "storage": [
+          {
+            "label": "marketParameters",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_struct(SwanMarketParameters)9430_storage",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:34"
+          },
+          {
+            "label": "oracleParameters",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_struct(LLMOracleTaskParameters)7719_storage",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:36"
+          },
+          {
+            "label": "buyerAgentFactory",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_contract(BuyerAgentFactory)7894",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:39"
+          },
+          {
+            "label": "swanAssetFactory",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_contract(SwanAssetFactory)9339",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:41"
+          },
+          {
+            "label": "coordinator",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_contract(LLMOracleCoordinator)7126",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:43"
+          },
+          {
+            "label": "token",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_contract(ERC20)1783",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:45"
+          },
+          {
+            "label": "listings",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_mapping(t_address,t_struct(AssetListing)8672_storage)",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:91"
+          },
+          {
+            "label": "assetsPerBuyerRound",
+            "offset": 0,
+            "slot": "11",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_array(t_address)dyn_storage))",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:93"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(InitializableStorage)80_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)13_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_contract(BuyerAgentFactory)7894": {
+            "label": "contract BuyerAgentFactory",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ERC20)1783": {
+            "label": "contract ERC20",
+            "numberOfBytes": "20"
+          },
+          "t_contract(LLMOracleCoordinator)7126": {
+            "label": "contract LLMOracleCoordinator",
+            "numberOfBytes": "20"
+          },
+          "t_contract(SwanAssetFactory)9339": {
+            "label": "contract SwanAssetFactory",
+            "numberOfBytes": "20"
+          },
+          "t_enum(AssetStatus)8655": {
+            "label": "enum Swan.AssetStatus",
+            "members": [
+              "Unlisted",
+              "Listed",
+              "Sold"
+            ],
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_array(t_address)dyn_storage))": {
+            "label": "mapping(address => mapping(uint256 => address[]))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(AssetListing)8672_storage)": {
+            "label": "mapping(address => struct Swan.AssetListing)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_array(t_address)dyn_storage)": {
+            "label": "mapping(uint256 => address[])",
+            "numberOfBytes": "32"
+          },
+          "t_struct(AssetListing)8672_storage": {
+            "label": "struct Swan.AssetListing",
+            "members": [
+              {
+                "label": "createdAt",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "royaltyFee",
+                "type": "t_uint96",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "seller",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "buyer",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "round",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(AssetStatus)8655",
+                "offset": 0,
+                "slot": "6"
+              }
+            ],
+            "numberOfBytes": "224"
+          },
+          "t_struct(LLMOracleTaskParameters)7719_storage": {
+            "label": "struct LLMOracleTaskParameters",
+            "members": [
+              {
+                "label": "difficulty",
+                "type": "t_uint8",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "numGenerations",
+                "type": "t_uint40",
+                "offset": 1,
+                "slot": "0"
+              },
+              {
+                "label": "numValidations",
+                "type": "t_uint40",
+                "offset": 6,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(SwanMarketParameters)9430_storage": {
+            "label": "struct SwanMarketParameters",
+            "members": [
+              {
+                "label": "withdrawInterval",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "sellInterval",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "buyInterval",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "platformFee",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "maxAssetCount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint40": {
+            "label": "uint40",
+            "numberOfBytes": "5"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          },
+          "t_uint96": {
+            "label": "uint96",
+            "numberOfBytes": "12"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "90d11218de71eeafa425d6b8109b2b2512f0a276d53966b397d08f6d39af1cbf": {
+      "address": "0x41d1DaeABDb474d6bEAe4243165C908c49B47c1e",
+      "txHash": "0xa85633fb5e5b814b3712d25bad5c1eb8185c1c6e4079acc147a026b62ccd3355",
+      "layout": {
+        "solcVersion": "0.8.24",
+        "storage": [
+          {
+            "label": "platformFee",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:24"
+          },
+          {
+            "label": "generationFee",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:27"
+          },
+          {
+            "label": "validationFee",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:30"
+          },
+          {
+            "label": "validationDeviationFactor",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_uint64",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:33"
+          },
+          {
+            "label": "generationDeviationFactor",
+            "offset": 8,
+            "slot": "3",
+            "type": "t_uint64",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:35"
+          },
+          {
+            "label": "minimumParameters",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_struct(LLMOracleTaskParameters)6827_storage",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:38"
+          },
+          {
+            "label": "maximumParameters",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_struct(LLMOracleTaskParameters)6827_storage",
+            "contract": "LLMOracleManager",
+            "src": "contracts/llm/LLMOracleManager.sol:40"
+          },
+          {
+            "label": "registry",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_contract(LLMOracleRegistry)6814",
+            "contract": "LLMOracleCoordinator",
+            "src": "contracts/llm/LLMOracleCoordinator.sol:61"
+          },
+          {
+            "label": "feeToken",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_contract(ERC20)1783",
+            "contract": "LLMOracleCoordinator",
+            "src": "contracts/llm/LLMOracleCoordinator.sol:63"
+          },
+          {
+            "label": "nextTaskId",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_uint256",
+            "contract": "LLMOracleCoordinator",
+            "src": "contracts/llm/LLMOracleCoordinator.sol:68"
+          },
+          {
+            "label": "requests",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_mapping(t_uint256,t_struct(TaskRequest)6865_storage)",
+            "contract": "LLMOracleCoordinator",
+            "src": "contracts/llm/LLMOracleCoordinator.sol:70"
+          },
+          {
+            "label": "responses",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_mapping(t_uint256,t_array(t_struct(TaskResponse)6882_storage)dyn_storage)",
+            "contract": "LLMOracleCoordinator",
+            "src": "contracts/llm/LLMOracleCoordinator.sol:72"
+          },
+          {
+            "label": "validations",
+            "offset": 0,
+            "slot": "11",
+            "type": "t_mapping(t_uint256,t_array(t_struct(TaskValidation)6897_storage)dyn_storage)",
+            "contract": "LLMOracleCoordinator",
+            "src": "contracts/llm/LLMOracleCoordinator.sol:74"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(InitializableStorage)80_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)13_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_struct(TaskResponse)6882_storage)dyn_storage": {
+            "label": "struct LLMOracleTask.TaskResponse[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(TaskValidation)6897_storage)dyn_storage": {
+            "label": "struct LLMOracleTask.TaskValidation[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_bytes_storage": {
+            "label": "bytes",
+            "numberOfBytes": "32"
+          },
+          "t_contract(ERC20)1783": {
+            "label": "contract ERC20",
+            "numberOfBytes": "20"
+          },
+          "t_contract(LLMOracleRegistry)6814": {
+            "label": "contract LLMOracleRegistry",
+            "numberOfBytes": "20"
+          },
+          "t_enum(TaskStatus)6834": {
+            "label": "enum LLMOracleTask.TaskStatus",
+            "members": [
+              "None",
+              "PendingGeneration",
+              "PendingValidation",
+              "Completed"
+            ],
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_uint256,t_array(t_struct(TaskResponse)6882_storage)dyn_storage)": {
+            "label": "mapping(uint256 => struct LLMOracleTask.TaskResponse[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_array(t_struct(TaskValidation)6897_storage)dyn_storage)": {
+            "label": "mapping(uint256 => struct LLMOracleTask.TaskValidation[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(TaskRequest)6865_storage)": {
+            "label": "mapping(uint256 => struct LLMOracleTask.TaskRequest)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(LLMOracleTaskParameters)6827_storage": {
+            "label": "struct LLMOracleTaskParameters",
+            "members": [
+              {
+                "label": "difficulty",
+                "type": "t_uint8",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "numGenerations",
+                "type": "t_uint40",
+                "offset": 1,
+                "slot": "0"
+              },
+              {
+                "label": "numValidations",
+                "type": "t_uint40",
+                "offset": 6,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(TaskRequest)6865_storage": {
+            "label": "struct LLMOracleTask.TaskRequest",
+            "members": [
+              {
+                "label": "requester",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "protocol",
+                "type": "t_bytes32",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "parameters",
+                "type": "t_struct(LLMOracleTaskParameters)6827_storage",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(TaskStatus)6834",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "generatorFee",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "validatorFee",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "platformFee",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              },
+              {
+                "label": "input",
+                "type": "t_bytes_storage",
+                "offset": 0,
+                "slot": "7"
+              },
+              {
+                "label": "models",
+                "type": "t_bytes_storage",
+                "offset": 0,
+                "slot": "8"
+              }
+            ],
+            "numberOfBytes": "288"
+          },
+          "t_struct(TaskResponse)6882_storage": {
+            "label": "struct LLMOracleTask.TaskResponse",
+            "members": [
+              {
+                "label": "responder",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "nonce",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "score",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "output",
+                "type": "t_bytes_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "metadata",
+                "type": "t_bytes_storage",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(TaskValidation)6897_storage": {
+            "label": "struct LLMOracleTask.TaskValidation",
+            "members": [
+              {
+                "label": "validator",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "nonce",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "scores",
+                "type": "t_array(t_uint256)dyn_storage",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "metadata",
+                "type": "t_bytes_storage",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint40": {
+            "label": "uint40",
+            "numberOfBytes": "5"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "fb162b80dd158adc1871dfe71c74119f6ab63dc6eeb765818cacef8815ce7f1c": {
+      "address": "0x60A804A6b2c3a807794b34d63732E624e0AE2678",
+      "txHash": "0xeb9710311c2022a65631dddc23c6a40be08733fc5490912c1cdfa9bd105f19b3",
+      "layout": {
+        "solcVersion": "0.8.24",
+        "storage": [
+          {
+            "label": "marketParameters",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_struct(SwanMarketParameters)8510_storage",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:34"
+          },
+          {
+            "label": "oracleParameters",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_struct(LLMOracleTaskParameters)6827_storage",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:36"
+          },
+          {
+            "label": "buyerAgentFactory",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_contract(BuyerAgentFactory)6957",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:39"
+          },
+          {
+            "label": "swanAssetFactory",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_contract(SwanAssetFactory)8419",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:41"
+          },
+          {
+            "label": "coordinator",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_contract(LLMOracleCoordinator)6234",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:43"
+          },
+          {
+            "label": "token",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_contract(ERC20)1783",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:45"
+          },
+          {
+            "label": "isOperator",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:49"
+          },
+          {
+            "label": "listings",
+            "offset": 0,
+            "slot": "11",
+            "type": "t_mapping(t_address,t_struct(AssetListing)7744_storage)",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:91"
+          },
+          {
+            "label": "assetsPerBuyerRound",
+            "offset": 0,
+            "slot": "12",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_array(t_address)dyn_storage))",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:93"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(InitializableStorage)80_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)13_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_contract(BuyerAgentFactory)6957": {
+            "label": "contract BuyerAgentFactory",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ERC20)1783": {
+            "label": "contract ERC20",
+            "numberOfBytes": "20"
+          },
+          "t_contract(LLMOracleCoordinator)6234": {
+            "label": "contract LLMOracleCoordinator",
+            "numberOfBytes": "20"
+          },
+          "t_contract(SwanAssetFactory)8419": {
+            "label": "contract SwanAssetFactory",
+            "numberOfBytes": "20"
+          },
+          "t_enum(AssetStatus)7727": {
+            "label": "enum Swan.AssetStatus",
+            "members": [
+              "Unlisted",
+              "Listed",
+              "Sold"
+            ],
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_array(t_address)dyn_storage))": {
+            "label": "mapping(address => mapping(uint256 => address[]))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(AssetListing)7744_storage)": {
+            "label": "mapping(address => struct Swan.AssetListing)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_array(t_address)dyn_storage)": {
+            "label": "mapping(uint256 => address[])",
+            "numberOfBytes": "32"
+          },
+          "t_struct(AssetListing)7744_storage": {
+            "label": "struct Swan.AssetListing",
+            "members": [
+              {
+                "label": "createdAt",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "royaltyFee",
+                "type": "t_uint96",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "seller",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "buyer",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "round",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(AssetStatus)7727",
+                "offset": 0,
+                "slot": "6"
+              }
+            ],
+            "numberOfBytes": "224"
+          },
+          "t_struct(LLMOracleTaskParameters)6827_storage": {
+            "label": "struct LLMOracleTaskParameters",
+            "members": [
+              {
+                "label": "difficulty",
+                "type": "t_uint8",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "numGenerations",
+                "type": "t_uint40",
+                "offset": 1,
+                "slot": "0"
+              },
+              {
+                "label": "numValidations",
+                "type": "t_uint40",
+                "offset": 6,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(SwanMarketParameters)8510_storage": {
+            "label": "struct SwanMarketParameters",
+            "members": [
+              {
+                "label": "withdrawInterval",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "sellInterval",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "buyInterval",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "platformFee",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "maxAssetCount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint40": {
+            "label": "uint40",
+            "numberOfBytes": "5"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          },
+          "t_uint96": {
+            "label": "uint96",
+            "numberOfBytes": "12"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "d65ba158b312c9d849f9011d84d704504477c53375639709d3d4b196962c018e": {
+      "address": "0x76f97478604659C6E27E747de73D9b9dc2aD6421",
+      "txHash": "0x19674d132bb8accd27b7c82f1a669e1b9fd911a9069226114e97762a65472b94",
+      "layout": {
+        "solcVersion": "0.8.24",
+        "storage": [
+          {
+            "label": "marketParameters",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_array(t_struct(SwanMarketParameters)8711_storage)dyn_storage",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:36"
+          },
+          {
+            "label": "oracleParameters",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_struct(LLMOracleTaskParameters)6827_storage",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:38"
+          },
+          {
+            "label": "buyerAgentFactory",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_contract(BuyerAgentFactory)6957",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:41"
+          },
+          {
+            "label": "swanAssetFactory",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_contract(SwanAssetFactory)8617",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:43"
+          },
+          {
+            "label": "coordinator",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_contract(LLMOracleCoordinator)6234",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:45"
+          },
+          {
+            "label": "token",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_contract(ERC20)1783",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:47"
+          },
+          {
+            "label": "isOperator",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "SwanManager",
+            "src": "contracts/swan/SwanManager.sol:51"
+          },
+          {
+            "label": "listings",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_mapping(t_address,t_struct(AssetListing)7935_storage)",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:91"
+          },
+          {
+            "label": "assetsPerBuyerRound",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_array(t_address)dyn_storage))",
+            "contract": "Swan",
+            "src": "contracts/swan/Swan.sol:93"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(InitializableStorage)80_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(OwnableStorage)13_storage": {
+            "label": "struct OwnableUpgradeable.OwnableStorage",
+            "members": [
+              {
+                "label": "_owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(SwanMarketParameters)8711_storage)dyn_storage": {
+            "label": "struct SwanMarketParameters[]",
+            "numberOfBytes": "32"
+          },
+          "t_contract(BuyerAgentFactory)6957": {
+            "label": "contract BuyerAgentFactory",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ERC20)1783": {
+            "label": "contract ERC20",
+            "numberOfBytes": "20"
+          },
+          "t_contract(LLMOracleCoordinator)6234": {
+            "label": "contract LLMOracleCoordinator",
+            "numberOfBytes": "20"
+          },
+          "t_contract(SwanAssetFactory)8617": {
+            "label": "contract SwanAssetFactory",
+            "numberOfBytes": "20"
+          },
+          "t_enum(AssetStatus)7918": {
+            "label": "enum Swan.AssetStatus",
+            "members": [
+              "Unlisted",
+              "Listed",
+              "Sold"
+            ],
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_array(t_address)dyn_storage))": {
+            "label": "mapping(address => mapping(uint256 => address[]))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(AssetListing)7935_storage)": {
+            "label": "mapping(address => struct Swan.AssetListing)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_array(t_address)dyn_storage)": {
+            "label": "mapping(uint256 => address[])",
+            "numberOfBytes": "32"
+          },
+          "t_struct(AssetListing)7935_storage": {
+            "label": "struct Swan.AssetListing",
+            "members": [
+              {
+                "label": "createdAt",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "royaltyFee",
+                "type": "t_uint96",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "seller",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "buyer",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "round",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(AssetStatus)7918",
+                "offset": 0,
+                "slot": "6"
+              }
+            ],
+            "numberOfBytes": "224"
+          },
+          "t_struct(LLMOracleTaskParameters)6827_storage": {
+            "label": "struct LLMOracleTaskParameters",
+            "members": [
+              {
+                "label": "difficulty",
+                "type": "t_uint8",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "numGenerations",
+                "type": "t_uint40",
+                "offset": 1,
+                "slot": "0"
+              },
+              {
+                "label": "numValidations",
+                "type": "t_uint40",
+                "offset": 6,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(SwanMarketParameters)8711_storage": {
+            "label": "struct SwanMarketParameters",
+            "members": [
+              {
+                "label": "withdrawInterval",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "sellInterval",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "buyInterval",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "platformFee",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "maxAssetCount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "timestamp",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              }
+            ],
+            "numberOfBytes": "192"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint40": {
+            "label": "uint40",
+            "numberOfBytes": "5"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          },
+          "t_uint96": {
+            "label": "uint96",
+            "numberOfBytes": "12"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Ownable": [
+            {
+              "contract": "OwnableUpgradeable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
