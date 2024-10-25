@@ -1,5 +1,4 @@
-# Swan: Dria Contracts
-
+# Swan
 
 ### Prize Pool
 
@@ -16,81 +15,91 @@
 
 ## About the Project
 
-This section should give auditors a feeling for what the protocol does, it's primary functions and the goals it hopes to achieve. Can include links to project websites or docs
+Swan is structured like a market, where buyers are AI agents. By setting parameters like backstory, behavior, and objective you define how your agent will act. By using the budget you deposit, the agent buys the best items listed based on how aligned they are with its parameters. With each new asset bought, the agent's state changes and the simulation evolves.
 
-Example:
+Asset creators on the other side of the market are trying to come up with the best asset for a specific agent so that they can profit from selling it. Each agent has a fee rate where the asset creators pay a % of the listing price as a fee to the agent.
 
-```
-About
+The LLM tasks are completed by a decentralized network of oracle nodes and the decisions are executed onchain.
+Swan enables human-AI interaction at scale in a financialized context with sustainable economics and creates simulated worlds for any scenario people want.
 
-This project is meant to enable smart contract auditors (sellers) and smart contract protocols
-looking for audits (buyers) to connect using a credibly neutral option, with optional arbitration.
+- [Documentation](https://github.com/Cyfrin/2024-10-swan-dria/tree/main/docs)\*
+- [Twitter / X](https://www.x.com/swanforall)
+- [GitHub](https://github.com/Cyfrin/2024-10-swan-dria)
 
-[Documentation](www.docs.com)
-[Website](www.protocolwebsite.com)
-[Twitter](www.twitter.com/handle)
-[GitHub](www.GitHub.com/account)
-```
+\*: The documentation is auto-generated with `npx hardhat docgen`.
+
+### About the Buyer Agent
+
+Each buyer agent has 3 **phases**, denoted as a **round** as a whole. The phases are:
+
+- **Sell** phase: A listing (via `list`) can be made for the buyer.
+- **Buy** phase: An `oraclePurchaseRequest` followed by `purchase` can be made, with which the agent will actually buy the chosen assets.
+- **Withdraw** phase: An `oracleStateRequest` followed by `updateState` can be made, with which the agent's `state` will be updated.
+
+The length of these phases are determined by `marketParameters` in Swan.
+
+### About the Oracle
+
+The LLM oracles can be thought of as black-box for the scope of this audit, they are out of scope. Oracle node is open source: https://github.com/firstbatchxyz/dkn-l2-oracle/, and is written in Rust using Alloy.
+
+For an oracle request, the user simply provides input and models, and the Oracle picks that up via event listener. It processes the input w.r.t given models (e.g. model is `gpt-4o-mini` and input is `What is 2+2?`) and then provides two things: `output` and `metadata`. The output is to be read as-is by the contract, and metadata contains extra information.
+
+In particular, the `purchase` operation in Swan makes use of a [special oracle call](https://github.com/firstbatchxyz/dkn-l2-oracle/blob/master/src/compute/workflows/postprocess/swan.rs) that is identified by the oracles via the `protocol` value. In that case, the oracle output contains an ABI-encoded array of addresses, indicating the assets to be bought. Metadata itself contains the actual LLM output.
+
+For each oracle request, we expect a number of generations and a number of validations afterwards. The validations will return a score for each generation, and a statistical filter will be applied to the generation results so that outliers (with respect to a **standard deviation** times a **deviation factor**) will be ignored.
 
 ## Actors
 
-Detail which roles are included within your protocol, for example 'owner', 'borrower', 'organizer' etc. Draw clear links and outline the powers each actor should have and expected limitations to those powers. Please clearly detail your expected centralization risks.
+LLM oracle has the following actors:
 
-Example:
+- **LLM Oracle node owner**: Each oracle node can be thought of as an EOA that needs to register to the registry with some stake. The oracle can have two roles, `generator` or `validator`. They can register to both types if they would like to.
 
-```
-Actors:
-    Buyer: The purchaser of services, in this scenario, a project purchasing an audit.
-    Seller: The seller of services, in this scenario, an auditor willing to audit a project.
-    Arbiter: An impartial, trusted actor who can resolve disputes between the Buyer and Seller.
-    The Arbiter is only compensated the arbiterFee amount if a dispute occurs.
-```
+- **`LLMOracleRegistry` Owner (Trusted)**: This is the wallet that deploys LLM Oracle registry by default. It can change the stake amounts.
+
+Swan has the following actors:
+
+- **`Swan` Owner (Trusted)**: This is the wallet that deploys Swan by default.
+
+- **`BuyerAgent` Owner**: A user can create a buyer agent with `createBuyer` function in Swan, and they will be the owner of that created Buyer.
+
+- **`SwanAsset` Owner**: A user can create an asset with `list` funtion in Swan, and they will be the owner of that created asset. _The asset is an ERC721 token with a single supply._
+
+- **`Swan` Operator (Trusted)**: For every Buyer, there is an `onlyAuthorized` modifier that ensures the modified function is callable by `BuyerAgent` owner, or an address such that `swan.isOperator(addr)` is true. These operators simply exist so that buyer owner's dont have to be online all the time to call `purchase`, `updateState` etc., and can instead let the Swan operators call it for them. The operators are currently centralized, and belong to FirstBatch.
 
 [//]: # (contest-details-close)
 
 [//]: # (scope-open)
 
-## Scope (contracts)
+## Scope
 
-This section should give auditors a clear understanding of what files and directories are included within the scope of the contest. You can itemize every applicable file, or list particular folders or directories, but please be specific and thorough. This will server as an auditors ultimate reference point for what to focus on.
+The scope of this contest is described in the structure below:
 
-Example:
-```
-All Contracts in `src` are in scope.
-```
-```js
-src/
-├── Beedle.sol
-├── Fees.sol
-├── Lender.sol
-├── Staking.sol
-├── interfaces
-│   ├── IERC20.sol
-│   └── ISwapRouter.sol
-└── utils
-    ├── Errors.sol
-    ├── Ownable.sol
-    └── Structs.sol
-
+```ml
+contracts/
+├── libraries/
+│   └── Statistics.sol
+├── llm/
+│   ├── LLMOracleCoordinator.sol
+│   ├── LLMOracleManager.sol
+│   ├── LLMOracleRegistry.sol
+│   ├── LLMOracleTask.sol
+└── swan/
+    ├── BuyerAgent.sol
+    ├── Swan.sol
+    ├── SwanAsset.sol
+    └── SwanManager.sol
 ```
 
 ## Compatibilities
 
-Please outline specific compatibilities of the protocol ie. blockchains (All EVM Compatible, specific chains). Please also include specific tokens, referencing standard contracts/interfaces when necessary, that are expected to function with the protocol. Include all whitelisted, or blacklisted tokens which are or are not supported. If the protocol is expected to function with **any** chain compatible tokens, please specify this.
+The Swan protocol is compatible with and EVM-compatible chain. As the primary deployment chain Swan will be deployed on **Base Sepolia and Base Mainnet**.
 
-Example:
+Swan uses the following token standards:
 
-```
-Compatibilities:
-  Blockchains:
-      - Ethereum/Any EVM
-  Tokens:
-      - ETH
-      - WETH
-      - Matic
-      - [ERC720](www.tokenstandard.com)
-      - [ERC721](www.tokenstandard.com)
-```
+- **[ERC-721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/)**: Each `SwanAsset` is an ERC-721 contract with a single supply.
+- **[ERC-20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/)** (ETH, [WETH](https://base-sepolia.blockscout.com/token/0x4200000000000000000000000000000000000006)): Payments within Swan are made with an ERC20 compatible token. Oracle fees are also paid with such.
+
+**Non-standard ERC20s (ie FoT, blacklist) are not supported**
 
 [//]: # (scope-close)
 
@@ -98,26 +107,47 @@ Compatibilities:
 
 ## Setup
 
-Please outline specific steps/processes to be followed in order for an auditor to run the project off a local clone of the contest repo. Please again be detailed and thorough, including specific markdowned CLI commands and necessary .env adjustments.
+To run this Hardhat project locally for auditing, follow the steps below.
 
-Please also include steps needed to run appropriate tests included in scope.
+### Installation
 
-Example:
+First, clone the repository:
 
-Build:
 ```bash
-forge init
-
-forge install OpenZeppelin/openzeppelin-contracts
-
-forge install vectorized/solady
-
-forge build
+git clone https://github.com/Cyfrin/2024-10-swan-dria
 ```
 
-Tests:
+Within the project directory, install dependencies:
+
 ```bash
-Forge test
+yarn install
+```
+
+You can use `npm` or `pnpm` if you would like as well.
+
+### Compile
+
+To compile the contracts:
+
+```bash
+yarn compile
+```
+
+### Testing
+
+The tests are written with Hardhat + Ethers. To run them:
+
+```bash
+yarn test
+
+# print gas usage
+yarn test:gas
+
+# show coverage
+yarn test:cov
+
+# run specific file
+yarn test ./path/to/some.test.ts
 ```
 
 [//]: # (getting-started-close)
@@ -126,34 +156,17 @@ Forge test
 
 ## Known Issues
 
-Please clearly detail **all** currently recognized issues or vulnerabilities within the scope submitted. Please be thorough and precise, following the end of the 48-hour Kick-Off period, these Known Issues will be immutable for the duration of the contest.
+- `SwanAssetFactory` and `BuyerAgentFactory` both have a `deploy` function that is callable by anyone, while the protocol assumes it to be called by `Swan` contract. We believe this is not a problem as any outsider call wont change the state of Swan contract, nor it will be caught by any event listeners that listen to Swan.
 
-Example:
+- The last oracle to call `validate` will pay more gas due to `finalizeValidation` that takes place in that transaction.
 
-`Known Issues:
-- Addresses other than the zero address (for example 0xdead) could prevent disputes from being resolved -
-Before the buyer deploys a new Escrow, the buyer and seller should  agree to the terms for the Escrow. If the
-buyer accidentally or maliciously deploys an Escrow with incorrect arbiter details, then the seller could refuse
-to provide their services. Given that the buyer is the actor deploying the new Escrow and locking the funds, it's
-in their best interest to deploy this correctly.
+- Changing any of the intervals (`withdrawInterval`, `sellInterval`, `buyInterval`) is a disruptive action, it will automatically increase the round count of all existing buyers by 1; this is intended.
 
-- Large arbiter fee results in little/no seller payment - In this scenario, the seller can decide to not perform
-the audit. If this is the case, the only way the buyer can receive any of their funds back is by initiating the dispute
-process, in which the buyer loses a large portion of their deposited funds to the arbiter. Therefore, the buyer is
-disincentivized to deploy a new Escrow in such a way.
+- A malicious `Swan` operator can call `oracleStateRequest` or `oraclePurchaseRequest` over and over to deplete the tokens of the respective Buyer agent via oracle fees. Since operators are centralized we ignore this.
 
-- Tokens with callbacks allow malicious sellers to DOS dispute resolutions - Each supported token will be vetted
-to be supported. ERC777 should be discouraged.
+- `oraclePurchaseRequest` and `oracleStateRequest` is called by either the buyer owner or a Swan operator. It is possible that a malicious buyer owner acts before the Swan operator to make a dummy `oraclePurchaseRequest`, e.g. the `input` is "say moo!" and therefore the `output` contains to assets to be bought at all. That way, it can guarantee that nothing will be bought, and collect fees. It can also set an arbitrary `state` by doing the same attack on `oracleStateRequest` with an arbitrary `input`.
 
-- Buyer never calls confirmReceipt - The terms of the Escrow are agreed upon by the buyer and seller before deploying
-it. The onus is on the seller to perform due diligence on the buyer and their off-chain identity/reputation before deciding
-to supply the buyer with their services.
-
-- Salt input when creating an Escrow can be front-run
-
-- arbiter is a trusted role
-
-- User error such as buyer calling confirmReceipt too soon
+[//]: # (known-issues-close)
 
 - Non-tokenAddress funds locked`
 [//]: # (known-issues-close)
