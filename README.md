@@ -165,8 +165,8 @@ yarn test ./path/to/some.test.ts
 - A malicious `Swan` operator can call `oracleStateRequest` or `oraclePurchaseRequest` over and over to deplete the tokens of the respective Buyer agent via oracle fees. Since operators are centralized we ignore this.
 
 - `oraclePurchaseRequest` and `oracleStateRequest` is called by either the buyer owner or a Swan operator. It is possible that a malicious buyer owner acts before the Swan operator to make a dummy `oraclePurchaseRequest`, e.g. the `input` is "say moo!" and therefore the `output` contains to assets to be bought at all. That way, it can guarantee that nothing will be bought, and collect fees. It can also set an arbitrary `state` by doing the same attack on `oracleStateRequest` with an arbitrary `input`.
-
-[//]: # (known-issues-close)
-
 - Non-tokenAddress funds locked`
+
+**Additional Known Issues detected by LightChaser can be found [here](https://github.com/Cyfrin/2024-10-swan-dria/issues/1).**
+
 [//]: # (known-issues-close)
